@@ -28,7 +28,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="bg-white py-24">
+    <section className="bg-white py-24" id='contact' >
       <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">Contact Us</h2>
       <div className=" flex flex-col md:flex-row justify-center items-start text-center ">
         <div className='p-5 rounded-lg bg-blue-500 flex flex-col items-center w-72 h-28 text-white text-center mx-auto md:mt-3'>

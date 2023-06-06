@@ -53,10 +53,10 @@ export default function ScheduleMeeting() {
   return (
     <>
       <button
-        className="bg-blue-500 hover:bg-blue-600 text-white text-xs font-bold p-3 md:p-4 md:gap-2 rounded-full flex justify-center items-center"
+        className="bg-blue-500 hover:bg-blue-600 text-white text-xs md:text-2xl font-bold p-3 md:p-6 md:gap-2 rounded-full flex justify-center items-center"
         onClick={() => setIsOpen(true)}
       >
-        <LuCalendarClock className=" text-xl " /> Book Now
+        <LuCalendarClock className=" text-xl md:text-2xl " /> Book Now
       </button>
 
       <Transition appear show={isOpen} as={Fragment}>
